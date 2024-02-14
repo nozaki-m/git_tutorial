@@ -6,7 +6,8 @@ name: setstartdate
 # or API.
 on:
   project_card:
-    types:[moved]
+    types:
+      - moved
 jobs:
   # This workflow contains a single job called "greet"
   setstartdate:
